@@ -15,6 +15,7 @@ function NewMeetupPage() {
       },
     }).then((res) => {
       console.log(res);
+      history.replace("/");
     });
   };
   return (
